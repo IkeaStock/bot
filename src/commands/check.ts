@@ -13,7 +13,7 @@ export class UserCommand extends Command {
 		const row = new MessageActionRow()
 		.addComponents(
 			new MessageButton()
-			.setLabel("View on the website.")
+			.setLabel("View on the website")
 			.setStyle("LINK")
 			.setURL(`${process.env.WEB_DOMAIN}/${productId}?country=${countryCode}`)
 		)
@@ -21,7 +21,7 @@ export class UserCommand extends Command {
 		.setTitle("IKEA Stock")
 		.setDescription("The stock information is below.")
 		.setColor("GREEN")
-		.setFooter({text: `ProductId: ${productId}`})
+		.setFooter({text: `Product ID: ${productId}`})
 		.setTimestamp()
 		res.map((val) => {
 			if (val.availableStocks == undefined) {

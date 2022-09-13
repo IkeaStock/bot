@@ -3,7 +3,7 @@ import { type CommandOptions, Command, ChatInputCommand } from '@sapphire/framew
 import { CommandInteraction, MessageActionRow, MessageButton, MessageEmbed } from 'discord.js';
 import { IkeaAPI } from '../lib/constants';
 @ApplyOptions<CommandOptions>({
-	description: 'Search the API!'
+	description: 'Search the API'
 })
 export class UserCommand extends Command {
 	public async chatInputRun(interaction: CommandInteraction) {

@@ -2,7 +2,7 @@ import { ApplyOptions } from '@sapphire/decorators';
 import { type CommandOptions, Command, ChatInputCommand } from '@sapphire/framework';
 import type { CommandInteraction } from 'discord.js';
 @ApplyOptions<CommandOptions>({
-	description: 'Invite me!',
+	description: 'Invite me',
 	name: 'invite'
 })
 export class UserCommand extends Command {

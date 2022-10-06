@@ -48,7 +48,7 @@ export class UserCommand extends Command {
 		  .addStringOption((option) =>
 			option
 				.setName('countrycode')
-				.setDescription('What country do you want to check? (You can check the site for the list!)')	
+				.setDescription('What is the country code? (You can visit the documentation for the list!)')	
 				.setRequired(true)
 		  )
 		);

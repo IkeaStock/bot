@@ -7,7 +7,7 @@ import type { CommandInteraction } from 'discord.js';
 })
 export class UserCommand extends Command {
 	public async chatInputRun(interaction: CommandInteraction) {
-        interaction.reply(`Invite me using [this url](${process.env.WEB_DOMAIN}/discordBot/invite)`)
+        interaction.reply(`Invite me using [this URL](${process.env.WEB_DOMAIN}/discordBot/invite).`)
 	}
 	public override registerApplicationCommands(registry: ChatInputCommand.Registry) {
 		registry.registerChatInputCommand((builder) =>

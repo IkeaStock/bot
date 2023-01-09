@@ -214,12 +214,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/prettier-config@npm:1.4.3":
-  version: 1.4.3
-  resolution: "@sapphire/prettier-config@npm:1.4.3"
+"@sapphire/prettier-config@npm:1.4.5":
+  version: 1.4.5
+  resolution: "@sapphire/prettier-config@npm:1.4.5"
   dependencies:
-    prettier: ^2.6.2
-  checksum: 95ed7d3b67f9a2373936282b47f13f81141ce3a61f26c630feca32f8a711c1b49198673579072310f290dd86c5ddbd39a3ca382ca3800b211318cd19ae226395
+    prettier: ^2.8.2
+  checksum: 241dfda0e73d1cb62d97fc946530041f1515a077572e4fd2da9f0bef80b97fbd8828ad6d36f6c98561b217acce185d111175eb3c889907e2591daf778e800274
   languageName: node
   linkType: hard
 
@@ -2123,7 +2123,7 @@ __metadata:
     "@sapphire/fetch": ^2.0.3
     "@sapphire/framework": next
     "@sapphire/plugin-logger": ^2.1.0
-    "@sapphire/prettier-config": 1.4.3
+    "@sapphire/prettier-config": 1.4.5
     "@sapphire/time-utilities": ^1.4.9
     "@sapphire/ts-config": 3.3.4
     "@sapphire/type": ^2.1.2
@@ -2455,12 +2455,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.7.1, prettier@npm:^2.6.2":
+"prettier@npm:2.7.1":
   version: 2.7.1
   resolution: "prettier@npm:2.7.1"
   bin:
     prettier: bin-prettier.js
   checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.8.2":
+  version: 2.8.2
+  resolution: "prettier@npm:2.8.2"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 740c56c2128d587d656ea1dde9bc9c3503dfc94db4f3ac387259215eeb2e216680bdad9d18a0c9feecc6b42cfa188d6fa777df4c36c1d00cedd4199074fbfbd2
   languageName: node
   linkType: hard
 
